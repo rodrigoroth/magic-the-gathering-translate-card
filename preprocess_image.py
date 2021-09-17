@@ -38,9 +38,7 @@ class Preprocess:
         card_name = image_card[10:90, 0:350]
         card_type = image_pre[325:360, 0:360]
         card_text = image_pre[350:540, 0:360]
-        # cv2.imshow('teste', card_type)
-        # cv2.waitKey(0)
-        # cv2.destroyAllWindows()
+
 
         return [card_name, card_type, card_text]
 
